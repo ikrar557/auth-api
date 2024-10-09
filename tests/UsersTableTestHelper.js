@@ -29,3 +29,5 @@ const UsersTableTestHelper = {
         await pool.query('TRUNCATE TABLE users')
     }
 }
+
+module.exports = UsersTableTestHelper;
